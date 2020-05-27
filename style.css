@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/* ----- UNIVESRAL CONTENT -----*/
+body {
+	font-family:"Raleway",sans-serif;
+	margin:0px;
+	font-size:25px;
+}
+.testBorder {
+	border:2px solid purple
+}
+.mainContent {
+	width:1280px;
+	margin:auto;
+}
+.title {
+	font-size:60px;
+	text-align:center;
+	font-weight:700;
+}
+/* ----- MAIN NAVIGATION MECHANISM ----- */
+.mainNav {
+	height:60px;
+	background-image:linear-gradient(to right,#f55045,#f58758)
+}
+.nonInteractible {
+	height:100%;
+	color:white;
+	padding-top:15px;
+	padding-left:50px;
+	text-shadow:1px 1px black;
+	width:25%;
+}
